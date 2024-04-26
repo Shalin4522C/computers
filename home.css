@@ -1,0 +1,157 @@
+* {
+  font-family: monserrat;
+}
+
+body {
+  padding: 50px 50px 50px 50px;
+  align-self: center;
+  background-image: url("images/s14.jpg");
+}
+
+.mainBox {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 100px 100px 100px 100px;
+}
+
+.head-wrapper {
+  background-color: navy;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.heading1 {
+  font-size: 100px;
+}
+
+div.pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.homeButton,
+.c9Button,
+.c10Button,
+.c11Button,
+.c12Button,
+.downloadsButton {
+  font-size: 30px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 0;
+  margin-left: 1px;
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+  transition: box-shadow 1s;
+}
+
+button:hover {
+  box-shadow: inset 5px 5px 5px 150px rgba(0, 0, 0, 0.2);
+}
+
+.homeButton {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.downloadsButton {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.welcomeText {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+
+.others {
+  display: flex;
+  background-color: aquamarine;
+  flex-direction: column;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.welcomeText {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+.othersButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.othersButtons1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.c09Button,
+.c010Button,
+.c011Button,
+.c012Button,
+.mcqPortalButton,
+.ytButton {
+  padding: 70px 70px 70px 70px;
+  font-size: 70px;
+}
+
+.c09Button {
+  border-top-left-radius: 50px;
+}
+
+.c011Button {
+  border-bottom-left-radius: 50px;
+}
+
+.ytButton {
+  border-bottom-right-radius: 50px;
+  align-content: center;
+  padding-left: 167.5px;
+  padding-right: 167.5px;
+}
+
+.c012Button {
+  border-top-right-radius: 50px;
+  padding-left: 83.25px;
+  padding-right: 83.25px;
+}
+
+.mcqPortalButton {
+  padding-left: 113px;
+  padding-right: 113px;
+  border-radius: 0;
+}
+
+.c010Button {
+  padding-left: 80px;
+  padding-right: 80px;
+  border-radius: 0;
+}
+
+.buttons {
+  padding-bottom: 100px;
+}
